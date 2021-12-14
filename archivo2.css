@@ -1169,7 +1169,7 @@ header nav ul li:hover ul{
   margin-top: 0%;
 }
  .listaTh th {
-  font-size: 15px;
+  font-size: 10px;
   line-height: 2px;
   padding-top: 10px;
   padding-bottom: 10%;
@@ -1796,17 +1796,17 @@ a .opcionesv:hover{
 }
 
 .listaTh th {
-  font-size: 27px;
+  font-size: 20px;
   line-height: 2px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 .listaCarrito {
   margin-top: 5%;
 
-  padding-left: 8%;
+  padding-left: 2%;
   padding-right: 10%;
   justify-content: center;
   font-size: 2rem;
