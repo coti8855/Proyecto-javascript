@@ -119,7 +119,6 @@ const agregarCarrito= item =>{
     const fragment = document.createDocumentFragment()
     Object.values(carrito).forEach(productos =>{
       items.innerHTML = ``
-      console.log(productos)
       template.querySelector(`th`).textContent = productos.id 
       template.querySelectorAll(`td`)[0].textContent = productos.nombre 
       template.querySelectorAll(`td`)[1].textContent = productos.cantidad 
@@ -142,7 +141,6 @@ const pintarFooter = () =>{
   const template = document.querySelector (`#template-footer`).content
   const fragment = document.createDocumentFragment()
   const nuevaCantidad = Object.values(carrito).reduce((acc, {cantidad}) => acc + cantidad, 0)
-  console.log(nuevaCantidad)
   const nuevoPrecio = Object.values(carrito).reduce((acc, {cantidad, precio}) => acc + cantidad * precio, 0)
   console.log(nuevoPrecio)
   template.querySelectorAll(`td`)[0].textContent = nuevaCantidad
@@ -165,7 +163,6 @@ const accionBotones = () => {
 
 botonesAgregar.forEach(btn =>{
   btn.addEventListener(`click`, () =>{
-    console.log(`agregando...`)
     const productos = carrito[btn.dataset.id]
     productos.cantidad ++
     carrito[btn.dataset.id] = {...productos}
@@ -174,7 +171,6 @@ botonesAgregar.forEach(btn =>{
 })
   botonesEliminar.forEach(btn =>{
   btn.addEventListener(`click`, () =>{
-    console.log(`eliminando...`)
     const productos = carrito[btn.dataset.id]
     productos.cantidad --
     if(productos.cantidad === 0){

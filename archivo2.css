@@ -1172,14 +1172,14 @@ header nav ul li:hover ul{
   font-size: 15px;
   line-height: 2px;
   padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  padding-bottom: 10%;
+  padding-left: 10%;
 }
 
 .listaCarrito {
   margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 8%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 }
@@ -1805,8 +1805,9 @@ a .opcionesv:hover{
 
 .listaCarrito {
   margin-top: 5%;
-  margin-left: 18%;
-  margin-right: 18%;
+
+  padding-left: 8%;
+  padding-right: 10%;
   justify-content: center;
   font-size: 2rem;
 }
