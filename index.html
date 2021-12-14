@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Opciones</title>
+    <link rel="stylesheet" href="archivo2.css">
+    
+    <meta name= "description" content="Esta es la pagina donde se muestran las opciones de Cocobox">
+    <meta name="keywords" content="tienda, regalos, cajas, accesorios, femeninas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body class="grilla2">
+    <header>
+        <nav class="menu">
+            <ul class="lista">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="opcionescopia.html">Opciones</a>
+                    <ul>
+                        <li><a href="cajascopia.html">Medium box</a></li>
+                        <li><a href="cajascopia.html">Big box</a></li>
+                        <li><a href="cajascopia.html">Mini Box</a></li>
+                    </ul>
+                </li>
+                <li><a href="contactocopia.html">Contacto</a></li>
+                <li><a href="nosotroscopia.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<section class="section_opciones">
+    <div class="primero">
+        <h2 class="otrotitulos">!Compra nuestros productos por separado!</h2>
+    </div>
+    <div class="cajas--chicas">
+
+  
+<div class="probando"></div>
+
+<div class="opciones_cuadros">
+<h6 class="otrotitulo">Carrito</h6>
+<table class="listaCarrito">         
+  <tr class="listaTh">
+    <th># </th>
+    <th>Productos </th>
+    <th>Cantidad </th>
+    <th class="thPrecio">Precio </th>
+    </tr>
+    <tbody id="items"></tbody>
+    <tr id="footer-carrito"></tr>
+  
+  <template id="template-footer" >
+        <th>Total compra</th>
+        <td>10</td>
+        <td>
+            <button class="btn-danger button" id="vaciar-carrito">
+                vaciar todo
+            </button>
+        </td>
+        <td>$ <span></span></td>
+    </template>
+    
+    <template id="template-carrito">
+      <tr>
+        <th scope="row"></th>
+        <td></td>
+        <td></td>
+        <td>
+            <button class="btn btn-info btn-sm ">
+                +
+            </button>
+            <button class="btn btn-danger btn-sm ">
+                -
+            </button>
+        </td>
+        <td>$ <span></span></td>
+      </tr>
+    </template>
+    </template>
+  </div>
+
+<div>
+    
+      <script src="javascriptfinal.js"></script>
+</div>
+</body>
+</html>
