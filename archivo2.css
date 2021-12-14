@@ -1796,7 +1796,7 @@ a .opcionesv:hover{
 }
 
 .listaTh th {
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 2px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1809,7 +1809,7 @@ a .opcionesv:hover{
   padding-left: 2%;
   padding-right: 10%;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 }
