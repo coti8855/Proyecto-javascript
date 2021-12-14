@@ -18,7 +18,7 @@
                   id: 3,
                   nombre: 'Vela',
                   precio: 980,
-                  imagen: 'im2/velas.png'
+                  imagen: 'im2/esmaltes.jpg'
               },
               {            
                   id: 4,
@@ -42,7 +42,7 @@
                   id: 7,
                   nombre: 'Llaveros',
                   precio: 389,
-                  imagen: 'im2/Llaveros.jpg'
+                  imagen: 'im2/llaveros.jpg'
               },
               {
                   id: 8,
