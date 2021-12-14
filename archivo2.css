@@ -127,10 +127,7 @@ a .opcionesv:hover{
   padding-bottom: 10px;
   padding-left: 10px;
 }
-.listaTh .thPrecio{
 
-  padding-left: 15px;
-}
 .listaCarrito {
   margin-top: 5%;
   margin-left: 10%;
@@ -204,6 +201,21 @@ a .opcionesv:hover{
   align-items: center; 
 
 }
+.listaTh th {
+  font-size: 10px;
+  line-height: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.listaCarrito {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 8%;
+  font-size: 10px;
+}
+
 
 /*descripcion de las cajas*/
 .cajas {
@@ -417,7 +429,30 @@ p input:hover {
   width: 50%;
    }
 
-  
+  .opciones_cuadros2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  margin-left: 21%;
+  margin-top: 10%;
+  margin-right: 0%;
+  margin-bottom: 10%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  overflow: hidden;
+  transition: 0.3s;
+  margin-top: 10%;
+  position: sticky;
+  width: 50%;
+   }
+
 
 .section_opciones .opciones_cuadros {
   transform: scale(1.1);
@@ -1000,6 +1035,26 @@ header nav ul li:hover ul{
     align-items: center;
 
   }
+   .opciones_cuadros2 {
+    display: inline-block;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    padding-right: 0%;
+    padding-bottom: 3%;
+    padding-left: 0%;
+    padding-top: 2%;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0% 0% 3% rgba(1, 41, 112, 0.08);
+    overflow: hidden;
+    transition: 0.3s;
+    margin-top: 0%;
+    width: 60%;
+    align-items: center;
+
+  }
 
   .opciones_cuadros img{
     width: 80%;
@@ -1113,7 +1168,20 @@ header nav ul li:hover ul{
   margin-bottom: 8%;
   margin-top: 0%;
 }
- 
+ .listaTh th {
+  font-size: 15px;
+  line-height: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.listaCarrito {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 8%;
+}
+
 }
 
 
@@ -1405,6 +1473,26 @@ a .opcionesv:hover{
     margin-top: 0%;
     width: 28%;
   }
+
+  .opciones_cuadros2 {
+    display: inline-block;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    padding-right: 0%;
+    padding-bottom: 2%;
+    padding-left: 0%;
+    padding-top: 2%;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    overflow: hidden;
+    transition: 0.3s;
+    margin-top: 0%;
+    width: 70%;
+  }
+
   .cajas--chicas{
     margin-left: 0%;
     margin-right: 0%;
@@ -1705,6 +1793,22 @@ a .opcionesv:hover{
     margin-right: 5%;
     text-align: center;
     margin-bottom: 2%;
+}
+
+.listaTh th {
+  font-size: 27px;
+  line-height: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+
+.listaCarrito {
+  margin-top: 5%;
+  margin-left: 18%;
+  margin-right: 18%;
+  justify-content: center;
+  font-size: 2rem;
 }
 
 }
