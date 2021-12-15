@@ -209,12 +209,7 @@ a .opcionesv:hover{
   padding-left: 10px;
 }
 
-.listaCarrito {
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 8%;
-  font-size: 10px;
-}
+
 
 
 /*descripcion de las cajas*/
@@ -1169,17 +1164,16 @@ header nav ul li:hover ul{
   margin-top: 0%;
 }
  .listaTh th {
-  font-size: 10px;
-  line-height: 2px;
-  padding-top: 10px;
-  padding-bottom: 10%;
-  padding-left: 10%;
+  font-size: 100%;
+  
+  
+
 }
 
 .listaCarrito {
   margin-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-left: 20%;
+  justify-content: center;
 }
 
 }
@@ -1804,12 +1798,9 @@ a .opcionesv:hover{
 }
 
 .listaCarrito {
-  margin-top: 5%;
-
-  padding-left: 2%;
-  padding-right: 10%;
+  margin-top: 5%;  
   justify-content: center;
-  font-size: 1rem;
+
 }
 
 }
